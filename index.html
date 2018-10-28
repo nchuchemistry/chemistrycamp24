@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+
+    <title>Hello, world!</title>
+</head>
+<body>
+<!--NAVBAR-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark mb-4">
+    <div class="container">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">首頁</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        公告
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="news.html#">最新消息</a>
+                        <!--<a class="dropdown-item" href="news.html#">交通資訊</a>-->
+                        <!--<a class="dropdown-item" href="news.html#">分組名單</a>-->
+                        <!--<a class="dropdown-item" href="news.html#">行程表</a>-->
+                        <!--<a class="dropdown-item" href="news.html#">行前須知</a>-->
+                        <!--<div class="dropdown-divider"></div>-->
+                        <a class="dropdown-item" href="#">常見問題</a>
+                        <a class="dropdown-item" href="#">聯絡資訊</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">報名</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">粉絲團</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container">
+    <!--CAROUSEL-->
+    <div id="carouselExampleIndicators" class="carousel slide mb-4" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img class="d-block w-100" src="https://via.placeholder.com/800x400?auto=yes&bg=666&fg=444&text=First slide" alt="First slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>First slide</h5>
+                    <p>First slide</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://via.placeholder.com/800x400?auto=yes&bg=666&fg=444&text=Second slide" alt="Second slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Second slide</h5>
+                    <p>Second slide</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://via.placeholder.com/800x400?auto=yes&bg=666&fg=444&text=Third slide" alt="Third slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Third slide</h5>
+                    <p>Third slide</p>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+
+    <!--TAB-->
+    <ul class="nav nav-tabs" id="teacherTab" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#teacher_1" role="tab" aria-controls="teacher_1" aria-selected="true">teacher_1</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="profile-tab" data-toggle="tab" href="#teacher_2" role="tab" aria-controls="teacher_2" aria-selected="false">teacher_2</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#teacher_3" role="tab" aria-controls="teacher_3" aria-selected="false">teacher_3</a>
+        </li>
+    </ul>
+    <div class="tab-content mb-4" id="teacherTabContent">
+        <div class="tab-pane fade show active" id="teacher_1" role="tabpanel" aria-labelledby="teacher_1-tab">
+            <img class="d-block w-100" src="https://via.placeholder.com/800x400?text=teacher_1">
+        </div>
+        <div class="tab-pane fade" id="teacher_2" role="tabpanel" aria-labelledby="teacher_2-tab">
+            <img class="d-block w-100" src="https://via.placeholder.com/800x400?text=teacher_2">
+        </div>
+        <div class="tab-pane fade" id="teacher_3" role="tabpanel" aria-labelledby="teacher_3-tab">
+            <img class="d-block w-100" src="https://via.placeholder.com/800x400?text=teacher_3">
+        </div>
+    </div>
+
+    <h2 class="text-center">About</h2>
+    <p class="text-center" style="white-space: pre-line">
+        &lt;中興化學營&gt;
+            是由中興化學系系學會募集系上具有熱忱與責任感的學生，共同精心籌備策劃的寒假營隊 ，如今終於也辦到了第二十三屆。
+
+            化學，
+            存在於你我身旁，與我們的生活息息相關，學習並應用帶給我們無盡的便利。
+
+            活動內容:
+
+            ✪專題演講✪
+            邀請系上資深教授，以深入淺出的方式教導學生身為化學家的思考以及解決問題的模式，讓學生用不同思維學習化學，延伸出生活化的化學，讓課本中的化學不再死板。
+
+            ✪化學實驗✪
+            由助教及大學生設計的有趣實驗，讓學員操作多數課本上只能看不能做的化學實驗，體驗化學系有趣之處，並驗證課本中的化學原理。
+
+            ✪化學魔術表演✪
+            邀請助教演示特殊的化學實驗，在安全前提下，讓學員體驗平常不常見的化學變化，過去參加的學員極力推薦。
+
+            ✪精彩活動✪
+            由大學生設計的團康活動、大型遊戲以及晚會活動，為化學營的活動增添更多樂趣，活動中有不少彩蛋等著學員來挖掘。
+
+            詳情請見粉絲專頁
+    </p>
+</div>
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

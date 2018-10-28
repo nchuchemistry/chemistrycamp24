@@ -1,0 +1,21 @@
+.navbar.navbar-dark .navbar-nav .nav-item.dropdown .dropdown-menu > a.dropdown-item{
+    color: rgba(255,255,255,.5);
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item.dropdown .dropdown-menu {
+    background-color: #343a40;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item.dropdown .dropdown-menu > .dropdown-divider{
+    border-top: 1px solid #52585e;
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item.dropdown .dropdown-menu > a.dropdown-item:hover {
+    background-color: #494f55;
+    color: rgba(255,255,255,.75);
+}
+
+.navbar.navbar-dark .navbar-nav .nav-item.dropdown .dropdown-menu > a.dropdown-item.active {
+    background-color: #575e64;
+    color: rgba(255,255,255,.75);
+}
