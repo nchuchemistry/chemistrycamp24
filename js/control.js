@@ -124,23 +124,23 @@ $("#chemistry").on({
     },
   });
 
-$("#bus").on({
-    mouseenter: function(){
-      $(this).addClass("animated rubberBand");
-    },
-    mouseleave: function(){
-      $(this).removeClass("animated rubberBand");
-    },
-  });
-
-$("#school").on({
-    mouseenter: function(){
-      $(this).addClass("animated rubberBand");
-    },
-    mouseleave: function(){
-      $(this).removeClass("animated rubberBand");
-    },
-  });
+// $("#bus").on({
+//     mouseenter: function(){
+//       $(this).addClass("animated rubberBand");
+//     },
+//     mouseleave: function(){
+//       $(this).removeClass("animated rubberBand");
+//     },
+//   });
+//
+// $("#school").on({
+//     mouseenter: function(){
+//       $(this).addClass("animated rubberBand");
+//     },
+//     mouseleave: function(){
+//       $(this).removeClass("animated rubberBand");
+//     },
+//   });
 
   // 交通資訊 按鈕
 $("#bus").click(function(){
