@@ -6,7 +6,7 @@ var nsOptions =
     autoAdvance: true,
     delay: 4000,
     transitionSpeed: 1000,
-    aspectRatio: "2:1",
+    aspectRatio: "1809:709",
     initSliderByCallingInitFunc: false,
     shuffle: false,
     startSlideIndex: 0, //0-based
