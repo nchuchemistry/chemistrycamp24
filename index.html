@@ -13,7 +13,7 @@
     <meta name="description" content="想了解更專業的知識嗎?想親自動手作實驗嗎?那就來 中興化學營 - 化險為疑 吧!讓我們帶領你一同探索化學世界的奧妙!">
     <meta name="keywords" content="中興化學,中興化學營,化學營,中興,化學,第24屆中興化學營,第24屆化學營">
 
-    <link rel="shortcut icon" href="img/Icon.ico">
+    <link rel="shortcut icon" href="img/icon.jpg">
     <link rel="stylesheet" href="css/main.css">
 
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -22,11 +22,13 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.js"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.1.6/semantic.min.css">
+    <link rel="stylesheet" href="css/embed.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 
     <link href='https://fonts.googleapis.com/css?family=Bree+Serif' rel='stylesheet' type='text/css'>
     <link href="slider/ninja-slider.css" rel="stylesheet" type="text/css"/>
     <script src="slider/ninja-slider.js" type="text/javascript"></script>
+    <script src="js/embed.min.js" type="text/javascript"></script>
     <style>
         body {
             font: normal 0.9em Arial;
@@ -818,6 +820,20 @@
 </div>
 -->
 
+
+<div class="section">
+    <h1 class="ui horizontal divider header" style="margin-top: 5%;">
+        預告影片
+    </h1>
+    <div class="ui centered grid container">
+        <div class="column">
+            <div class="ui embed" data-source="youtube" data-id="L33egZKa5wc" data-placeholder="img/preview.jpg"></div>
+        </div>
+    </div>
+</div>
+
+
+
 <!-- 這裡放 交通資訊 -->
 <div id="IF" class="section">
 
@@ -839,9 +855,7 @@
                 </div>
             </div>
         </div>
-
     </div>
-    </h1>
 </div>
 
 <!-- 這裡放 公車資訊 -->
@@ -1503,6 +1517,8 @@
         </div>
     </div>
 </div>
-
+<script>
+    $('.ui.embed').embed();
+</script>
 </body>
 </html>
